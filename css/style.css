@@ -55,7 +55,7 @@ section.parent_article article,
 section.parent_article_due article{
     width: 280px;
     height: 410px;
-    margin: .8rem .6rem 3.5rem .6rem;
+    margin: 1.5rem .6rem 3.5rem .6rem;
     position: relative;
 }
 
@@ -63,6 +63,7 @@ section.parent_article article div p,
 section.parent_article_due article div p{
     position: absolute;
     top: 100%;
+    font-size: 14px;
 }
 
 
@@ -74,12 +75,40 @@ section.parent_article_due article div p{
 .bg_red{
     position: absolute;
     background-color: red;
-    padding: 2px;
+    padding: 3px;
     top: 90%;
+    color: white;
 }
 .bg_green{
-    
+    position: absolute;
+    background-color: #008000;
+    padding: 3px;
+    top: 90%;
+    left: 15%;
+    color: white;
 }
+
+.bg_green_due{
+    position: absolute;
+    background-color: #008000;
+    padding: 3px;
+    top: 90%;
+    color: white;
+}
+
+.bg_heart{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    top: 2%;
+    right: 0;
+}
+
+
+.red_text{
+    color: red;
+}
+
 
 /* background article main */
 
@@ -132,6 +161,7 @@ section.parent_article_due article:nth-child(3){
     justify-content: space-around;
     padding: 20px;
     color: white;
+    margin-top: 20px;
 }
 
 section.footer_booleando div ul{
