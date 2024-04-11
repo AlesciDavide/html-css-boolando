@@ -9,6 +9,11 @@ li{
     padding-right: 5px;
 }
 
+
+
+main{
+    margin: 0 10% 0 10%;
+}
 .flex{
     display: flex;
 }
@@ -19,8 +24,9 @@ section.header_booleando{
     background-color: #ff6900;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-evenly;
+    padding: 20px 80px 20px 80px;
+    margin-bottom: 50px;
 }
 
 section.header_booleando ul li{
@@ -36,22 +42,84 @@ section.header_booleando div{
 
 /* main */
 
-.parent_article{
+.parent_article,
+.parent_article_due{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 0px 1rem 0px 1rem;
 }
 
-section.parent_article > article{
-    width: 400px;
-    height: 500px;
-    background-color: rgb(188, 188, 248);
-    margin: 1rem;
+section.parent_article article,
+section.parent_article_due article{
+    width: 280px;
+    height: 410px;
+    margin: .8rem .6rem 3.5rem .6rem;
+    position: relative;
+}
+
+section.parent_article article div p,
+section.parent_article_due article div p{
+    position: absolute;
+    top: 100%;
 }
 
 
+.flex_col{
+    display: flex;
+    flex-direction: column;
+}
+
+.bg_red{
+    position: absolute;
+    background-color: red;
+    padding: 2px;
+    top: 90%;
+}
+.bg_green{
+    
+}
+
+/* background article main */
+
+section.parent_article article:nth-child(1){
+    background-image: url(../img/1.webp);
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.parent_article article:nth-child(2){
+    background-image: url(../img/2.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.parent_article article:nth-child(3){
+    background-image: url(../img/3.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.parent_article_due article:nth-child(1){
+    background-image: url(../img/4.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.parent_article_due article:nth-child(2){
+    background-image: url(../img/5.webp);
+    background-size: 100%;
+}
+
+section.parent_article_due article:nth-child(3){
+    background-image: url(../img/6.webp);
+    background-size: 100%;
+}
 
 
 
