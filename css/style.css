@@ -40,8 +40,7 @@ section.header_booleando div{
 
 /* main */
 
-.parent_article,
-.parent_article_due{
+.parent_article{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -49,16 +48,15 @@ section.header_booleando div{
     padding: 0px 1rem 0px 1rem;
 }
 
-section.parent_article article,
-section.parent_article_due article{
-    width: 280px;
+section.parent_article article{
+    /* width: 280px; */
+    width: calc((100% / 3) - 5rem);
     height: 410px;
     margin: 1.5rem .6rem 3.5rem .6rem;
     position: relative;
 }
 
-section.parent_article article div p,
-section.parent_article_due article div p{
+section.parent_article article div p{
     position: absolute;
     top: 100%;
     font-size: 14px;
@@ -119,84 +117,72 @@ section.parent_article_due article div p{
 
 section.parent_article article:nth-child(1){
     background-image: url(../img/1.webp);
-    /* background-size: 100%; */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 section.parent_article article:nth-child(1):hover{
     background-image: url(../img/1b.webp);
-    /* background-size: 100%; */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 section.parent_article article:nth-child(2){
     background-image: url(../img/2.webp);
-    background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 section.parent_article article:nth-child(2):hover{
     background-image: url(../img/2b.webp);
-    background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 section.parent_article article:nth-child(3){
     background-image: url(../img/3.webp);
-    background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 section.parent_article article:nth-child(3):hover{
     background-image: url(../img/3b.webp);
-    background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section.parent_article_due article:nth-child(1){
+section.parent_article article:nth-child(4){
     background-image: url(../img/4.webp);
-    background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section.parent_article_due article:nth-child(1):hover{
+section.parent_article article:nth-child(4):hover{
     background-image: url(../img/4b.webp);
-    background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section.parent_article_due article:nth-child(2){
+section.parent_article article:nth-child(5){
     background-image: url(../img/5.webp);
-    background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section.parent_article_due article:nth-child(2):hover{
+section.parent_article article:nth-child(5):hover{
     background-image: url(../img/5b.webp);
-    background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section.parent_article_due article:nth-child(3){
+section.parent_article article:nth-child(6){
     background-image: url(../img/6.webp);
-    background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section.parent_article_due article:nth-child(3):hover{
+section.parent_article article:nth-child(6):hover{
     background-image: url(../img/6b.webp);
-    background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
