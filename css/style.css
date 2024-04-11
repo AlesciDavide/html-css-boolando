@@ -104,6 +104,15 @@ section.parent_article_due article div p{
     right: 0;
 }
 
+.bg_heart:hover{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    top: 2%;
+    right: 0;
+    color: red;
+}
+
 
 .red_text{
     color: red;
@@ -119,8 +128,22 @@ section.parent_article article:nth-child(1){
     background-size: cover;
 }
 
+section.parent_article article:nth-child(1):hover{
+    background-image: url(../img/1b.webp);
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 section.parent_article article:nth-child(2){
     background-image: url(../img/2.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.parent_article article:nth-child(2):hover{
+    background-image: url(../img/2b.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,8 +156,22 @@ section.parent_article article:nth-child(3){
     background-size: cover;
 }
 
+section.parent_article article:nth-child(3):hover{
+    background-image: url(../img/3b.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 section.parent_article_due article:nth-child(1){
     background-image: url(../img/4.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.parent_article_due article:nth-child(1):hover{
+    background-image: url(../img/4b.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,11 +180,29 @@ section.parent_article_due article:nth-child(1){
 section.parent_article_due article:nth-child(2){
     background-image: url(../img/5.webp);
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.parent_article_due article:nth-child(2):hover{
+    background-image: url(../img/5b.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section.parent_article_due article:nth-child(3){
     background-image: url(../img/6.webp);
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.parent_article_due article:nth-child(3):hover{
+    background-image: url(../img/6b.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
