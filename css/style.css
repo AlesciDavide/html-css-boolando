@@ -9,8 +9,6 @@ li{
     padding-right: 5px;
 }
 
-
-
 main{
     margin: 0 10% 0 10%;
 }
@@ -66,7 +64,6 @@ section.parent_article_due article div p{
     font-size: 14px;
 }
 
-
 .flex_col{
     display: flex;
     flex-direction: column;
@@ -79,6 +76,7 @@ section.parent_article_due article div p{
     top: 90%;
     color: white;
 }
+
 .bg_green{
     position: absolute;
     background-color: #008000;
@@ -113,11 +111,9 @@ section.parent_article_due article div p{
     color: red;
 }
 
-
 .red_text{
     color: red;
 }
-
 
 /* background article main */
 
@@ -205,8 +201,6 @@ section.parent_article_due article:nth-child(3):hover{
     background-size: cover;
 }
 
-
-
 /* footer */
 
 .footer_booleando{
@@ -224,7 +218,6 @@ section.footer_booleando div ul{
     font-size: .7rem;
     padding-top: 5px;
 }
-
 
 section.footer_booleando div:last-child{
     display: flex;
